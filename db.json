@@ -1,0 +1,20 @@
+{
+  "sensors": [
+    {"id": 1, "type": "temperature", "unit": "°C", "model": "DHT22", "location_id": 1, "accuracy": "±0.5°C"},
+    {"id": 2, "type": "temperature", "unit": "°C", "model": "LM35", "location_id": 3, "accuracy": "±0.5°C"},
+    {"id": 3, "type": "humidity", "unit": "%", "model": "DHT22", "location_id": 4, "accuracy": "±2%"},
+    {"id": 4, "type": "light", "unit": "lux", "model": "BH1750", "location_id": 2, "accuracy": "±20%"}
+  ],
+  "locations": [
+    {"id": 1, "name": "Woonkamer", "building": "Hoofdgebouw", "floor": 0},
+    {"id": 2, "name": "Eetkamer", "building": "Hoofdgebouw", "floor": 0},
+    {"id": 3, "name": "Bureau", "building": "Hoofdgebouw", "floor": 1},
+    {"id": 4, "name": "Keuken", "building": "Hoofdgebouw", "floor": 0}
+  ],
+  "measurements": [
+    {"id": 1, "sensor_id": 1, "value": 21.5, "timestamp": "2025-03-26T10:30:00Z"},
+    {"id": 2, "sensor_id": 2, "value": 18.0, "timestamp": "2025-03-26T10:30:00Z"},
+    {"id": 3, "sensor_id": 1, "value": 51.1, "timestamp": "2025-03-26T11:30:00Z"},
+    {"id": 4, "sensor_id": 1, "value": 22.1, "timestamp": "2025-03-26T11:30:00Z"}
+  ]
+}
